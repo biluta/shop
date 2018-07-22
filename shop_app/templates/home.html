@@ -1,0 +1,9 @@
+{% for category in categories %}
+<a href = ./category/{{category.id}}>Kатегория {{category.id}}</a>
+</br>
+{% endfor %}
+
+{% for product in products %} 
+</br>
+<a href = ./product/{{product.id}}>Продукт {{product.id}}</a>
+{% endfor %}
