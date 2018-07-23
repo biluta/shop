@@ -1,0 +1,7 @@
+
+<h2>{{category.title}}</h2>
+
+{% for product in category.products.all %}
+<h3>{{product.title}}</h3>
+<p>{{ product.description}}</p>
+{% endfor %}
